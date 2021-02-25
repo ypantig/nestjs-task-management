@@ -50,17 +50,6 @@ export class TasksService {
     }
   }
 
-  // deleteTaskById(id: string): void {
-  //   const found = this.tasks.find((task, index) => {
-  //     if (task.id === id) {
-  //       this.tasks.splice(index, 1);
-  //       return true;
-  //     }
-  //   });
-  //   if (!found) {
-  //     throw new NotFoundException(`Task with ID ${id} not found`);
-  //   }
-  // }
   // updateTaskStatus(id: string, status: TaskStatus): Task {
   //   const task = this.getTaskById(id);
   //   task.status = status;
